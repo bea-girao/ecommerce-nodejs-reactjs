@@ -1,4 +1,30 @@
 {
+    "campaigns": [
+        {
+            "id": 1,
+            "title": "Segunda do papoco Zenir",
+            "text": "A maior explosão de ofertas",
+            "image": ""
+        },
+        {
+            "id": 2,
+            "title": "Queima de estoque",
+            "text": "A maior explosão de ofertas",
+            "image": ""
+        },
+        {
+            "id": 3,
+            "title": "Segunda do papoco Zenir",
+            "text": "A maior explosão de ofertas",
+            "image": ""
+        },
+        {
+            "id": 4,
+            "title": "Segunda do papoco Zenir",
+            "text": "A maior explosão de ofertas",
+            "image": ""
+        }
+    ],
     "highlight-icons": [
         {
             "id": 1,

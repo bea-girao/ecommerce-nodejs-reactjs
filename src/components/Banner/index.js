@@ -65,7 +65,7 @@ export default function Banner() {
       >
         {images.map((step, index) => (
           <div key={step.title}>
-            {Math.abs(activeStep - index) <= 2 ? (
+            {Math.abs(activeStep - index) <= maxSteps ? (
               <section className="carousel">
                 <div>
                     <h1>{step.title}</h1>

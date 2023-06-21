@@ -4,6 +4,8 @@ import Categories from "./pages/Categories";
 import Home from "./pages/Home";
 import Orders from "./pages/Orders";
 import Products from "./pages/Products";
+import Slides from "./pages/Slides";
+import Admin from "./pages/Admin";
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
         <Route path="/produtos" element={<Products/>} />
         <Route path="/categorias" element={<Categories/>} />
         <Route path="/pedidos" element={<Orders/>} />
+        <Route path="/slides" element={<Slides/>} />
+        <Route path="/admin" element={<Admin/>}/>
       </Routes>
     </BrowserRouter>
   )
